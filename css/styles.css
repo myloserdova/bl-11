@@ -1,0 +1,82 @@
+
+:root {
+  --green-logo: #28a745;
+  --main-white: #ffffff;
+  --hero-white: #e9e9e9;
+  --black-color-text: #333333;
+  --main-bg-color: #f4f4f4;
+  --btn-second-bg-color: #28a745;
+  --blue-bg-color: #0284d0;
+  --footer-bg-color: #333333;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--black-color-text);
+
+  font-weight: 400;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* all */
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
+.page-header {
+  color: var(--main-white);
+
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.logo {
+  font-size: 35px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-first-words {
+  color: var(--btn-second-bg-color);
+}
+
+/* Hero */
+
+.hero {
+  color: var(--hero-white);
+
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.hero.prg {
+  font-size: 22px;
+  line-height: 1.68;
+}
+
+.hero.button {
+  background-color: var(--btn-second-bg-color);
+  font-size: 18px;
+  line-height: 1.55;
+  
+/* business cases */
+.business-cases {
+  color: var(--black-color-text);
+}
+.text {
+  font-size: 20px;
+  line-height: 1.65;
+}
+.paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+}

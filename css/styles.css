@@ -8,3 +8,10 @@
   --blue-bg-color: #0284d0;
   --footer-bg-color: #333333;
 }
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--black-color-text);
+
+  font-family: Roboto, sans-serif;
+}

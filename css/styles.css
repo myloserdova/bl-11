@@ -76,6 +76,38 @@ body {
   line-height: 1.55;
 }
 
+
+/* we provide */
+.green-section {
+  background-color: var(--btn-second-bg-color);
+}
+.button-primary {
+  color: var(--main-white);
+  background-color: var(--btn-second-bg-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+} 
+.text-white {
+  color: var(--main-white);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.title {
+  color: var(--main-white);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.description-text {
+  color: var(--main-white);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
 /* business cases */
 
 .business-cases {

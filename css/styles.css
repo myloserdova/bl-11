@@ -1,4 +1,3 @@
-
 :root {
   --green-logo: #28a745;
   --main-white: #ffffff;
@@ -29,12 +28,12 @@ body {
 
 .page-header {
   color: var(--main-white);
-
   font-size: 18px;
   line-height: 1.55;
 }
 
 .logo {
+  color: var(--main-white);
   font-size: 35px;
   line-height: 1.2;
   text-decoration: none;
@@ -44,6 +43,13 @@ body {
   color: var(--btn-second-bg-color);
 }
 
+.site-nav.list {
+  list-style-type: none;
+}
+
+.link.nav {
+  color: var(--main-white);
+}
 /* Hero */
 
 .hero {
@@ -67,7 +73,7 @@ body {
   background-color: var(--btn-second-bg-color);
   font-size: 18px;
   line-height: 1.55;
-  
+}
 /* business cases */
 .business-cases {
   color: var(--black-color-text);

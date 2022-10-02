@@ -12,6 +12,57 @@
 body {
   background-color: var(--main-bg-color);
   color: var(--black-color-text);
+  font-weight: 400;
 
-  font-family: OpenSans, sans-serif;
+  font-family: Open Sans, sans-serif;
+}
+
+/* all */
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
+.page-header {
+  color: var(--main-white);
+
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.logo {
+  font-size: 35px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-first-words {
+  color: var(--btn-second-bg-color);
+}
+
+/* Hero */
+
+.hero {
+  color: var(--hero-white);
+
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.hero.prg {
+  font-size: 22px;
+  line-height: 1.68;
+}
+
+.hero.button {
+  background-color: var(--btn-second-bg-color);
+  font-size: 18px;
+  line-height: 1.55;
 }

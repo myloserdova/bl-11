@@ -1,3 +1,4 @@
+
 :root {
   --green-logo: #28a745;
   --main-white: #ffffff;
@@ -12,6 +13,17 @@
 body {
   background-color: var(--main-bg-color);
   color: var(--black-color-text);
-
-  font-family: OpenSans, sans-serif;
+  font-family: 'OpenSans', sans-serif;
+  
+/* business cases */
+.business-cases {
+  color: var(--black-color-text);
+}
+.text {
+  font-size: 20px;
+  line-height: 1.65;
+}
+.paragraph {
+  font-size: 18px;
+  line-height: 1.6;
 }

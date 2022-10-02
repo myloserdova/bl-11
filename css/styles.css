@@ -50,6 +50,7 @@ body {
 .link.nav {
   color: var(--main-white);
 }
+
 /* Hero */
 
 .hero {
@@ -74,6 +75,7 @@ body {
   font-size: 18px;
   line-height: 1.55;
 }
+
 
 /* we provide */
 .green-section {
@@ -116,7 +118,12 @@ body {
   font-size: 20px;
   line-height: 1.65;
 }
+
 .paragraph {
   font-size: 18px;
   line-height: 1.6;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
 }

@@ -67,11 +67,13 @@ body {
   background-color: var(--btn-second-bg-color);
   font-size: 18px;
   line-height: 1.55;
-  
+}
 /* business cases */
+
 .business-cases {
   color: var(--black-color-text);
 }
+
 .text {
   font-size: 20px;
   line-height: 1.65;

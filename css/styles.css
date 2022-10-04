@@ -72,8 +72,13 @@ body {
 
 .hero.button {
   background-color: var(--btn-second-bg-color);
+  cursor: pointer;
+  border: inherit;
   font-size: 18px;
   line-height: 1.55;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 9px;
 }
 
 /* we provide */

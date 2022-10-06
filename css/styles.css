@@ -76,8 +76,13 @@ body {
 
 .hero.button {
   background-color: var(--btn-second-bg-color);
+  cursor: pointer;
+  border: inherit;
   font-size: 18px;
   line-height: 1.55;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 9px;
 }
 
 /*features*/
@@ -116,12 +121,19 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
-} 
+}
 .text-white {
   color: var(--main-white);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
+}
+
+.title-second {
+  color: var(--black-color-text);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
 }
 
 .title {
@@ -130,6 +142,7 @@ body {
   font-size: 38px;
   line-height: 1.26;
 }
+
 .description-text {
   color: var(--main-white);
   font-weight: 400;
@@ -151,6 +164,42 @@ body {
 .paragraph {
   font-size: 18px;
   line-height: 1.6;
+}
+
+.blog {
+  background-color: var(--blue-bg-color);
+}
+
+.button {
+  color: var(--main-white);
+  background-color: var(--blue-bg-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.button:hover {
+}
+
+.button:focus {
+}
+
+.callback {
+  background-color: var(--main-bg-color);
+  color: var(--black-color-text);
+}
+
+.button-request {
+  background-color: var(--btn-second-bg-color);
+  color: var(--main-white);
+  font-size: 18px;
+  line-height: 1.39;
+}
+
+.button-request:hover {
+}
+
+.button-request:focus {
 }
 
 .footer {

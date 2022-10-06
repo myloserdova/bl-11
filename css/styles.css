@@ -24,6 +24,10 @@ body {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
 /* Header */
 
 .page-header {
@@ -76,6 +80,31 @@ body {
   line-height: 1.55;
 }
 
+/*features*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-transform: capitalize;
+}
+
+.features-text {
+  font-size: 18px;
+  line-height: 1.56;
+}
 
 /* we provide */
 .green-section {

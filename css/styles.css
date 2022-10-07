@@ -206,4 +206,29 @@ body {
   background-color: var(--footer-bg-color);
 }
 
-/* Our Profesional Team
+/* Our Profesional Team*/
+.team-top {
+  line-height: 1.65;
+}
+.team h2 {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.26;
+}
+.team-description {
+  font-size: 18px;
+  line-height: 1.56;
+}
+.team-representatives {
+  list-style: none;
+  display: flex;
+}
+.team-representatives h3 {
+  font-size: 25px;
+  line-height: 1.26;
+  font-weight: 400;
+}
+.team-representatives p {
+  font-size: 18px;
+  line-height: 1.56;
+}

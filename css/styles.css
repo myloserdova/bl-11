@@ -220,7 +220,6 @@ body {
   line-height: 1.56;
 }
 .team-representatives {
-  list-style: none;
   display: flex;
 }
 .team-representatives h3 {

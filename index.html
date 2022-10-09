@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance Ledger</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,30 +20,43 @@
 
   <body>
     <header class="page-header">
-      <nav>
-        <a href="./index.html" class="logo">
-          <img src="./img/logo.svg" alt="logo" />
-          <span class="logo-first-words">Finance</span>Ledger
-        </a>
+      <div class="container">
+        <nav class="main-nav">
+          <div class="logo-nav">
+            <a href="./index.html" class="logo link">
+              <svg class="logo-img" width="39" height="31">
+                <use href="./images/symbol-defs.svg#icon-fa-solid_book-open"></use>
+              </svg>
+              <span class="logo-first-words">Finance</span>Ledger
+            </a>
+          </div>
 
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link nav">Home</a></li>
-          <li><a href="" class="link nav">About</a></li>
-          <li><a href="" class="link nav">Cases</a></li>
-          <li><a href="" class="link nav">Blog</a></li>
-          <li><a href="" class="link nav">Contact</a></li>
-        </ul>
-      </nav>
+          <div class="site-nav">
+            <ul class="site-nav list">
+              <li><a href="./index.html" class="link nav">Home</a></li>
+              <li><a href="" class="link nav">About</a></li>
+              <li><a href="" class="link nav">Cases</a></li>
+              <li><a href="" class="link nav">Blog</a></li>
+              <li><a href="" class="link nav">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">The sky is the limit</h1>
-        <p class="hero prg">We provide world class financial assistance</p>
-        <button type="button" class="hero button">
-          <img src="./img/img-hero-btn.svg" alt="img" class="img-hero-btn" />
-          Read more
-        </button>
+        <div class="container">
+          <h1 class="hero-title">The sky is the limit</h1>
+          <p class="hero-prg">We provide world class financial assistance</p>
+          <button type="button" class="hero-button">
+            <svg class="hero-icon" width="9" height="18">
+              <use href="./images/symbol-defs.svg#icon-fa-solid_angle-right"></use>
+            </svg>
+            Read more
+          </button>
+        </div>
       </section>
+
       <section class="features">
         <div class="container">
           <h2 class="title visually-hidden">Our services</h2>
@@ -144,22 +161,40 @@
     </main>
 
     <footer class="footer">
-      <ul>
-        <li>
-          <img src="./img/fb.jpg" alt="Logo facebook" width="35" />
-        </li>
+      <div class="container">
+        <ul class="social-list list">
+          <li>
+            <a href="" class="social-link">
+              <svg class="hero-icon" width="35" height="35">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
 
-        <li>
-          <img src="./img/twit.jpg" alt="Logo twitter" width="35" />
-        </li>
-        <li>
-          <img src="./img/yutube.jpg" alt="Logo youtube" width="40" />
-        </li>
-        <li>
-          <img src="./img/linkedin.jpg" alt="Logo linkedin" width="31" />
-        </li>
-      </ul>
-      <p>Copyright &copy; 2021 - FinanceLedger</p>
+          <li>
+            <a href="" class="social-link">
+              <svg class="hero-icon" width="35" height="35">
+                <use href="./images/symbol-defs.svg#icon-twiter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-link"
+              ><svg class="hero-icon" width="40" height="35">
+                <use href="./images/symbol-defs.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-link"
+              ><svg class="hero-icon" width="31" height="35">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-text">Copyright &copy; 2021 - FinanceLedger</p>
+      </div>
     </footer>
   </body>
 </html>

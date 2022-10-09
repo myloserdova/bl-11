@@ -298,3 +298,34 @@ ul {
   font-size: 18px;
   line-height: 1.56;
 }
+
+/* FOOTER */
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.footer-text {
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  text-align: center;
+  color: var(--main-white);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.social-link {
+  fill: currentColor;
+  color: var(--main-white);
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--green-logo);
+}

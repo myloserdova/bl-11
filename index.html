@@ -130,16 +130,23 @@
       </section>
 
       <section class="blog">
-        <p class="time text-white">April 16 2020</p>
-        <h2 class="title">Blog post one</h2>
-        <p class="description-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-          quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-          itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button type="button" class="button">Read our blog</button>
-        <img src="./img/cup.jpg" alt="Opened notebook, pensil, cup of coffee" width="680" />
+        <div class="container blog-container">
+          <div class="text-block">
+            <p class="time text-white">April 16 2020</p>
+            <h2 class="title title-blog">Blog post one</h2>
+            <p class="description-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+              itaque rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button type="button" class="button">Read our blog</button>
+          </div>
+          <div class="img-block">
+            <img src="./img/cup.jpg" alt="Opened notebook, pensil, cup of coffee" width="680" />
+          </div>
+        </div>
       </section>
+
       <section class="team">
         <p class="team-top">Who we are</p>
         <h2>Our Professional Team</h2>
@@ -168,10 +175,25 @@
           </li>
         </ul>
       </section>
+
       <section class="callback">
-        <img src="./img/callback.jpg" alt="Man uses callback" width="680" />
-        <h2 class="title-second">Request Callback</h2>
-        <button type="button" class="button-request">Send</button>
+        <div class="container callback-container">
+          <img src="./img/callback.jpg" alt="Man uses callback" width="680" />
+          <div class="callback-form">
+            <h2 class="title-second">Request Callback</h2>
+            <form>
+              <div class="form-group">
+                <label class="form-label-name">
+                  <input type="text" class="form-input" placeholder="Enter your name"/>
+                </label>
+                <label class="form-label-email">
+                  <input type="email" class="form-input" placeholder="Enter email*" />
+                </label>
+                <button type="button" class="button-request">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 

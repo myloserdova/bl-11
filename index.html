@@ -49,7 +49,7 @@
         <div class="container">
           <h1 class="hero-title">The sky is the limit</h1>
           <p class="hero-prg">We provide world class financial assistance</p>
-          <button type="button" class="hero-button">
+          <button type="button" class="hero-button" data-modal-open>
             <svg class="hero-icon" width="9" height="18">
               <use href="./images/symbol-defs.svg#icon-fa-solid_angle-right"></use>
             </svg>
@@ -265,5 +265,16 @@
         <p class="footer-text">Copyright &copy; 2021 - FinanceLedger</p>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-button" type="button" data-modal-close>
+          <!-- <svg class="icon-close" width="18px" height="18px">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg> -->
+        x</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -152,6 +152,15 @@ ul {
   margin-right: 5px;
 }
 
+.page-header,
+.hero {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.jpg),
+    url(../img/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /*features*/
 .visually-hidden {
   position: absolute;

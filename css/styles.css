@@ -47,6 +47,8 @@ p,
 ul {
   padding: 0;
   margin: 0;
+  margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 /* Header */
@@ -453,29 +455,51 @@ height: 40px;
 }
 
 /* Our Profesional Team*/
+.team {
+  padding-top: 49px;
+  padding-bottom: 59px;
+}
 .team-top {
   line-height: 1.65;
+  text-align: center;
+  margin-bottom: 16px;
 }
 .team h2 {
   font-size: 38px;
   font-weight: 300;
   line-height: 1.26;
+  text-align: center;
+  margin-bottom: 34px;
 }
 .team-description {
   font-size: 18px;
   line-height: 1.56;
+  text-align: center;
+  margin-bottom: 45px;
 }
 .team-representatives {
   display: flex;
+  gap: 19px;
+  justify-content: center;
+  align-items: center;
 }
 .team-representatives h3 {
   font-size: 25px;
   line-height: 1.26;
   font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
 }
 .team-representatives p {
   font-size: 18px;
   line-height: 1.56;
+  text-align: center;
+}
+.team-representatives img {
+  margin-bottom: 13px;
+}
+.team-representatives .different-image-margin {
+  margin-bottom: 11px;
 }
 
 /* FOOTER */

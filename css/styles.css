@@ -190,7 +190,6 @@ ul {
 
 .features-list {
   display: flex;
-
   gap: 71px;
 }
 
@@ -227,6 +226,8 @@ ul {
 }
 
 .features-text {
+  width: 362px;
+
   font-size: 18px;
   line-height: 1.56;
   text-align: center;
@@ -451,7 +452,6 @@ ul {
   margin-top: 60px;
   width: 620px;
   height: 40px;
-
   background-color: var(--btn-second-bg-color);
   color: var(--main-white);
   font-size: 18px;

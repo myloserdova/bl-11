@@ -233,6 +233,7 @@ ul {
   text-align: center;
 }
 
+
 /* we provide */
 .green-section {
   background-color: var(--btn-second-bg-color);
@@ -258,10 +259,10 @@ ul {
 }
 
 .container.what-you-are {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  justify-content: center;
+display: flex;
+align-items: center;
+padding: 0;
+justify-content: center;
 }
 
 .text-white {
